@@ -12,8 +12,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
@@ -104,6 +105,7 @@ module.exports = {
         plugins: [`gatsby-remark-images`],
       },
     },
+    /*
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -111,6 +113,7 @@ module.exports = {
         // trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
+    */
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -1,10 +1,16 @@
+<!--
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0643e551-0fef-4f57-9d3c-29d576f3e06c/deploy-status)](https://app.netlify.com/sites/gatsby-personal-starter-blog/deploys)
+-->
 
 <img alt="screenshot" src="./screenshot.gif">
 
-This is the search-enabled version of Gatsby Personal Starter Blog!
+This is a fork of the now archived [Gatsby Starter](https://github.com/thomaswang/gatsby-personal-starter-blog) made by [Thomas Wang](https://github.com/thomaswang) that is modified and upgraged to Gatsby v3!
 
 ## 🚀 Quick start
+
+0.  **Basic requirements:**
+
+    You need to install [Node\.js](https://nodejs.dev/download) v12+, preferably the latest LTS version.
 
 1.  **Create a Gatsby site.**
 
@@ -12,10 +18,10 @@ This is the search-enabled version of Gatsby Personal Starter Blog!
 
     ```sh
     # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/thomaswang/gatsby-personal-starter-blog
+    gatsby new my-blog-starter https://github.com/endy-imam/gatsby-netlify-v3
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -24,7 +30,7 @@ This is the search-enabled version of Gatsby Personal Starter Blog!
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
@@ -46,4 +52,4 @@ Start from [this point](https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thomaswangio/gatsby-personal-starter-blog)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/endy-imam/gatsby-netlify-v3)
